@@ -8,6 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class AddstudentComponent implements OnInit {
 
   constructor() { }
+  name=""
+  rollno=""
+  admission=""
+  college=""
+  parentname=""
+  dob=""
+  address=""
+  mobilenumber=""
+  parentnumber=""
+  emailid=""
+  bloodgroup=""
+
+  readValues=()=>{
+    console.log("success")
+  }
 
   ngOnInit(): void {
   }
